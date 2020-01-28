@@ -15,6 +15,8 @@
 		E351C59823E0263400EF0E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E351C59623E0263400EF0E7B /* LaunchScreen.storyboard */; };
 		E351C5A323E0263500EF0E7B /* SwiftUI_CameraAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351C5A223E0263500EF0E7B /* SwiftUI_CameraAppTests.swift */; };
 		E351C5AE23E0263500EF0E7B /* SwiftUI_CameraAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351C5AD23E0263500EF0E7B /* SwiftUI_CameraAppUITests.swift */; };
+		E351C5C023E0365900EF0E7B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351C5BF23E0365900EF0E7B /* CameraViewController.swift */; };
+		E351C5C223E0367200EF0E7B /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351C5C123E0367200EF0E7B /* CameraController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E351C5A923E0263500EF0E7B /* SwiftUI-CameraAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-CameraAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E351C5AD23E0263500EF0E7B /* SwiftUI_CameraAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CameraAppUITests.swift; sourceTree = "<group>"; };
 		E351C5AF23E0263500EF0E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E351C5BF23E0365900EF0E7B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E351C5C123E0367200EF0E7B /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				E351C59623E0263400EF0E7B /* LaunchScreen.storyboard */,
 				E351C59923E0263400EF0E7B /* Info.plist */,
 				E351C59323E0263400EF0E7B /* Preview Content */,
+				E351C5C123E0367200EF0E7B /* CameraController.swift */,
+				E351C5BF23E0365900EF0E7B /* CameraViewController.swift */,
 			);
 			path = "SwiftUI-CameraApp";
 			sourceTree = "<group>";
@@ -268,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E351C58C23E0263100EF0E7B /* AppDelegate.swift in Sources */,
+				E351C5C023E0365900EF0E7B /* CameraViewController.swift in Sources */,
 				E351C58E23E0263100EF0E7B /* SceneDelegate.swift in Sources */,
 				E351C59023E0263100EF0E7B /* ContentView.swift in Sources */,
+				E351C5C223E0367200EF0E7B /* CameraController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
