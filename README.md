@@ -1,3 +1,6 @@
+# DISCLAIMER
+This sample hasn't been updated since january 2020. Swift & SwiftUI both changed a lot since then. This sample may not work anymore.
+
 # SwiftUI-Simple-camera-app
 Simple camera app (mirror) written for Medium
 
